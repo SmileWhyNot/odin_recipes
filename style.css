@@ -1,0 +1,46 @@
+.pageImg {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#indexList {
+    text-align: center;
+}
+
+#indexList ul li {
+    display:inline;
+}
+
+.unOrdered {
+    color: rgb(98, 255, 0)
+}
+
+.ordered {
+    color:bisque;
+}
+
+.list {
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.descrip {
+    color: rgb(255, 170, 0);
+    text-align: center;
+}
