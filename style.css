@@ -1,46 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  border: 2px solid rgb(77, 255, 0);
+  box-sizing: inherit;
+}
+
 .pageImg {
-    width: 25%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
 }
 
 #indexList {
-    text-align: center;
+  text-align: center;
 }
 
 #indexList ul li {
-    display:inline;
+  display: inline;
 }
 
 .unOrdered {
-    color: rgb(98, 255, 0)
+  color: rgb(98, 255, 0);
 }
 
 .ordered {
-    color:bisque;
+  color: bisque;
 }
 
 .list {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 h3 {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: 1000;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 1000;
 }
 
 .descrip {
-    color: rgb(255, 170, 0);
-    text-align: center;
+  color: rgb(255, 170, 0);
+  text-align: center;
 }
